@@ -7,4 +7,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="26.10.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DATABASE\" />
+    <Folder Include="MAPEAMENTO\" />
+  </ItemGroup>
+
 </Project>
